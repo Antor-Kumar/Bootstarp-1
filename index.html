@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="script.css">
+  <link rel="stylesheet" href="./source/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="header" id="home">
+    <div class="header-container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="testimonal.html">Testimonal</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <p><i class="fa-solid fa-cart-shopping  header-icon"></i></p>
+              <p><i class="fa-solid fa-magnifying-glass header-icon"></i></p>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="header-item">
+      <div class="container">
+        <div class="row">
+          <div class="col header-text">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+              <div class="carousel-indicators" id="chang-position">
+                <button id="btn-common" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                  class="active" id="active" aria-current="true" aria-label="Slide 1"></button>
+                <button id="btn-common" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button id="btn-common" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h5>Sale 20% Off</h5>
+                  <h3>On Everything</h3>
+                  <p class="fs-6 col-5">Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat
+                    hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto
+                    veritatis delectus repellat modi impedit sequi.</p>
+                  <button class="btn btn-shop">Shop Now</button>
+
+                </div>
+                <div class="carousel-item">
+                  <h5>Sale 20% Off</h5>
+                  <h3>On Everything</h3>
+                  <p class="fs-6 col-5">Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat
+                    hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto
+                    veritatis delectus repellat modi impedit sequi.</p>
+                  <button class="btn btn-shop">Shop Now</button>
+                </div>
+                <div class="carousel-item">
+                  <h5>Sale 20% Off</h5>
+                  <h3>On Everything</h3>
+                  <p class="fs-6 col-5">Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat
+                    hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto
+                    veritatis delectus repellat modi impedit sequi.</p>
+                  <button class="btn btn-shop">Shop Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- deatlis section -->
+  <section class="detalis">
+    <div class="container mt-5">
+      <h2 class="detalis_text text-center after_effect">Why shop with Us</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+        <div class="col ">
+          <div class="card h-100 " id="detalis_bg">
+            <i class="d_logo fa-sharp fa-solid fa-truck"></i>
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3 fw-bold">Fast Delivery</h5>
+              <p class="card-text">Variations of Passages of Lorem <br>ipsum available</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="detalis_bg">
+            <i class="d_logo fa-solid fa-text-width"></i>
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3 fw-bold">Free Shiping</h5>
+              <p class="card-text mb-5">Variations of Passages of Lorem <br>ipsum available</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" id="detalis_bg">
+            <i class="d_logo fa-solid fa-certificate"></i>
+            <div class="card-body text-center">
+              <h5 class="card-title fs-3 fw-bold">Best Quality</h5>
+              <p class="card-text">Variations of Passages of Lorem <br>ipsum available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- New Arrivals section   -->
+  <section class="arrivals_section">
+    <div class="container w-100">
+      <div class="row">
+        <div class="arrival_bg_box col-md-6">
+          <img src="./images/arrival-bg.png" alt="">
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <div>
+            <h2 class="display-4 fw-bold">
+              #NewArrivals
+            </h2>
+            <p>
+              Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum
+              id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+            </p>
+            <button class="btn btn-shop">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- card section -->
+  <section class="card_section">
+    <div class="container ">
+      <h2 class="display-4 text-center mb-5">Our<span class="product_headiing after_effect">Product</span></h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p1.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-center justify-content-end">
+              <h5 class="card-title">Men's Shirt</h5>
+              <p class="card-text">$75</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p2.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-end">
+              <h5 class="card-title me-5">Men's Shirt</h5>
+              <p class="card-text">$80</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p3.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-around">
+              <h5 class="card-title">Women's dress</h5>
+              <p class="card-text">$70</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p4.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-center justify-content-end">
+              <h5 class="card-title">Men's Shirt</h5>
+              <p class="card-text">$75</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p5.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-end">
+              <h5 class="card-title me-5">Men's Shirt</h5>
+              <p class="card-text">$80</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p6.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-around">
+              <h5 class="card-title">Women's dress</h5>
+              <p class="card-text">$70</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p7.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-center justify-content-end">
+              <h5 class="card-title">Men's Shirt</h5>
+              <p class="card-text">$75</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p8.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-end">
+              <h5 class="card-title me-5">Men's Shirt</h5>
+              <p class="card-text">$80</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p9.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-around">
+              <h5 class="card-title">Women's dress</h5>
+              <p class="card-text">$70</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p10.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-center justify-content-end">
+              <h5 class="card-title">Men's Shirt</h5>
+              <p class="card-text">$75</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p11.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex align-items-end">
+              <h5 class="card-title me-5">Men's Shirt</h5>
+              <p class="card-text">$80</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/p12.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-around">
+              <h5 class="card-title">Women's dress</h5>
+              <p class="card-text">$70</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product_btn text-center mt-5">
+        <button>View All Products</button>
+      </div>
+    </div>
+  </section>
+  <!------------- subscribe section ------------>
+  <section class="subscribe_section">
+    <div class="container">
+      <div class="row">
+        <div>
+          <h2 class="fs-1 "">Subscribe To Get Discount Offers</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                  <input type=" text" name="" id="" placeholder="Enter Your Email"><br>
+            <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------- Testimonial section ----------->
+  <section class="testimonial_section">
+    <h2 class="display-4 after_effect text-center  fw-bold mb-5">Customer's Testimonial</h2>
+    <div class="container">
+      <div class="row col-8">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner d-flex text-center align-items-center">
+            <div class="carousel-item active">
+              <img src="./images/client.jpg" class="d-block w-25 rounded-circle mx-auto disabled" alt="...">
+              <div>
+                <h4>Anna Trevor</h4>
+                <h6>Customer</h6>
+                <p>
+                  Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit,
+                  et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus
+                  accusantium sapiente nam! Quaerat.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/client.jpg" class="d-block w-25 rounded-circle mx-auto" alt="...">
+              <div>
+                <h4>Anna Trevor</h4>
+                <h6>Customer</h6>
+                <p>
+                  Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit,
+                  et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus
+                  accusantium sapiente nam! Quaerat.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/client.jpg" class="d-block w-25 rounded-circle mx-auto" alt="...">
+              <div>
+                <h4>Anna Trevor</h4>
+                <h6>Customer</h6>
+                <p>
+                  Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit,
+                  et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus
+                  accusantium sapiente nam! Quaerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button_control">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <span class=""><i class="fa-sharp fa-solid fa-arrow-left"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span><i class="fa-sharp fa-solid fa-arrow-right"></i></span>
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <span aria-hidden="true">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------  footer section ----------->
+  <section class="footer_section">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./images/logo.png" class="w-50 mb-4" alt="">
+          <div class="information_f">
+            <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
+            <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
+            <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="widget_menu text-sm-start">
+                    <h3 class="fw-bold">Menu</h3>
+                    <ul id="widget_menu">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">Testimonial</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 text-decoration-none ">
+                  <div class="widget_menu">
+                    <h3 class="fw-bold">Account</h3>
+                    <ul id="widget_menu">
+                      <li><a href="#">Account</a></li>
+                      <li><a href="#">Checkout</a></li>
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">Register</a></li>
+                      <li><a href="#">Shopping</a></li>
+                      <li><a href="#">Widget</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="widget_menu">
+                <h3 class="fw-bold">Newsletter</h3>
+                <div class="information_f">
+                  <p class="mt-3">Subscribe by our newsletter and get update protidin.</p>
+                </div>
+                <div class="form_sub">
+                  <form>
+                    <fieldset>
+                      <div class="field">
+                        <div class="input-group mt-2">
+                          <input type="text" class="form-control" placeholder="Enter Your Mail"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                          <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center mt-5 footer_bg">
+    <p>©2023 All Rights Reserved By Free <span class="color_text">Html CSS bootstrap Website</span> <br>@Copy Right
+      Made By<span class="color_text"> Antor</span></p>
+  </div>
+  <script src="./source/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

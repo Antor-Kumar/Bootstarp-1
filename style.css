@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+.header-container{
+    background-color: #fcf6f6;
+    align-items: center;
+    padding: 0% 0%;
+}
+.navbar-brand img{
+    width: 250px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav-item .nav-link {
+	display: block;
+    margin-right: 15px;
+	font-size:22px; 
+	font-weight:600; 
+	color: rgb(28, 5, 5);
+	text-decoration: none;
+    transition: 1s;
+}
+.nav-item .nav-link:hover{
+    color: #F7444E;
+}
+
+.header-item{
+    background-image: url("./images/slider-bg.jpg");
+    width:100%;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position:top;
+    background-size:cover;
+    
+}
+.header-icon{
+    margin-top: 14px;
+    margin-right: 15px;
+}
+#chang-position {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -4rem;
+    margin-left: -70%;
+    list-style: none;
+}
+
+#btn-common{
+    width: 16px;
+    height:16px;
+    border-radius:50%;
+}
+
+.carousel-item h5{
+    font-size: 4rem;
+    color:#F7444E;
+    font-weight: 700;
+}
+.carousel-item h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+.carousel-item .btn-shop{
+    background-color: #F7444E;
+    padding: 10px 28px;
+}
+
+/* ======       ======== */
+
+.detalis_text{
+    font-size: 50px;
+    font-weight: bold;
+    margin:80px 0;
+}
+.detalis .d_logo{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+   
+}
+#detalis_bg{
+    background-color: #002C3E;
+    color: #efecec;
+}
+ /*========= arrivals section ========== */
+ .arrivals_section{
+    margin-top: 200px;
+    background-color: #D4CED0;
+    margin-bottom: 100px;
+ }
+ .arrival_bg_box img{
+    width: 160%;
+    height: 100%;
+    left: -50%;
+    background-position:right;
+ }
+.arrivals_section .btn-shop{
+        background-color: #F7444E;
+        padding: 10px 35px;
+}
+.card_section .card{
+    padding: 20px;
+     align-items: center;
+}
+.card_section .card img{
+  width: 150px;
+}
+.card_section .h-100{
+    background-color: #f7f8f9;
+    border-top:0;
+    border-left:0;
+}
+.card_section h2{
+    font-weight: bold;
+
+}
+.card_section span{
+    color:#F7444E;
+}
+.after_effect::after{
+    content: '';
+    background-color: #F7444E;
+    width: 6%;
+    height: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+.product_btn button{
+    padding: 10px 30px;
+    background-color:#F7444E;
+    border:0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+@media(max-width:768px){
+    .arrival_bg_box img{
+        width: 100%;
+        height: 100%;
+        left: -30%;
+        background-position:right;
+     }
+     html,body{
+        width: 100%;
+        height:100%;
+        margin:0;
+        padding:0;
+     }
+}
+    
+/* subscribe section */
+.subscribe_section{
+    margin-top: 5rem;
+    background-color: #D4CED0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.subscribe_section h2{
+    margin-top: 8rem;
+    font-weight: 600;
+}
+.subscribe_section p{
+    font-size: 20px;
+}
+.subscribe_section input{
+    padding: 13px 70px;
+    border-radius: 30px;
+    margin-bottom: 2.5rem;
+    border: 0;
+}
+.subscribe_section button{
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #F7444E;
+    color: white;
+    font-size: 1rem;
+
+}
+
+/* testimonial section */
+.testimonial_section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.button_control i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7444E;
+}
+.footer_section {
+    background-color: #F8F8F8;
+}
+.widget_menu ul li{
+    list-style: none;
+    align-items:start;     
+}
+#widget_menu{
+    padding-left: 0;
+}
+.widget_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+#basic-addon2{
+    background-color: #F7444E;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* about section */
+.about_text{
+    background-color: #F7444E;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+.about_text h1{
+    font-size: 50px;
+}
+
+/* All footer section */
+.All_footer_section{
+    margin-top: 50px;
+    background-color: #002C3E;
+    color: white;
+    padding: 50px 0;
+}
+.All_footer_section ul li{
+    list-style: none;
+}
+.All_footer_section ul li a{
+    text-decoration: none;
+    color:white;
+}
+.All_footer_section .footer_links .fa-brands{
+    color:white;
+    font-size: 22px;
+    padding:.2rem;
+    transition: 2s;
+}
+.All_footer_section .footer_links .fa-brands:hover{
+   transform: translateY(-5px);
+   color:#F7444E;
+}
+.color_text{
+    color:#F7444E;
+}
+.All_footer_section .fa-solid{
+    padding-right: 5px;
+}
+.footer_bg{
+    padding:30px 0;
+    background-color: #002C3E;
+    color: white;
+}
