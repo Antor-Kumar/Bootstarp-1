@@ -111,11 +111,13 @@ html{
         padding: 10px 35px;
 }
 .card_section .card{
-    padding: 20px;
+     padding: 20px;
      align-items: center;
 }
 .card_section .card img{
   width: 150px;
+  height: 220px;
+  margin-bottom: 25px;
 }
 .card_section .h-100{
     background-color: #f7f8f9;
@@ -129,6 +131,13 @@ html{
 .card_section span{
     color:#F7444E;
 }
+.card .card-body h5{
+    margin-right: 100px;
+}
+.card .card-body p{
+    margin-bottom: 8px;
+}
+
 .after_effect::after{
     content: '';
     background-color: #F7444E;
